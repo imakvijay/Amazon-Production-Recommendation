@@ -20,5 +20,10 @@ def home_page():
     return render_template('index.html')
 
 
+@app.route('/recommended',  methods=['POST', 'GET'])
+def recommended():
+    return render_template('recommended.html')
+
+
 if __name__ == "__main__":
     app.run()
