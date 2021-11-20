@@ -887,31 +887,34 @@
 <!------Services Section------->		
 	<section id="services">
 	
+		<form method="post" enctype="multipart/form-data">
+		
 		<div class="container">
 			<h1 id='customize'>Customize</h1>
 			<!-- <link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
 			<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 			<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
 			 -->
-			 <script src="{{ url_for('static', filename='customize.js') }}"></script>
+			 <script src="{{ url_for('static', filename='/js/customize.js') }}"></script>
 			 
 		
 		
-		
+			
 			
 			<div class="row services" >
 				<div class= "col-md-12 text-center">
 					
-				<input type='file'  onchange="readURL(this);" />
+				<input type='file'  name="input_image" onchange="readURL(this);" />
+				<input type="submit">
 				<img id="blah" src="#" alt="your image" />
 		
 				</div>
 				<div class= "col-md-12 text-center" id='recommend' style="margin-top: 10%;"></div>
-			
+				
 				
 			</div>
 		</div>
-	
+		</form>
 	</section>
 	
 
