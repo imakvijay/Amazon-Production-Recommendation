@@ -1,3 +1,6 @@
 Flask
 pandas
 opencv-python
+Pillow
+scikit-image
+scikit-learn

@@ -43,7 +43,6 @@ def home_page():
             context[f'color_available{idx + 1}'] = values['color_available']
             context[f'size_available{idx + 1}'] = values['size_available']
 
-        
         return render_template('recommended.html',**context)
 
     return render_template('index.html')
