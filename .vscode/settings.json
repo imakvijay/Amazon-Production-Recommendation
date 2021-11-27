@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/50bc623c-02fc-4509-9ce6-fe34d1f7453e/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/amazon-recommend",
-    "appService.deploySubpath": "."
-}
