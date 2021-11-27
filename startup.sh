@@ -1,1 +1,1 @@
-gunicorn --bind=0.0.0.0 --timeout 600 --chdir Front-end app:app
+gunicorn --bind=0.0.0.0:8000 --timeout 600 --chdir Front-end app:app
