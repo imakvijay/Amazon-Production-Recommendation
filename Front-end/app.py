@@ -6,11 +6,11 @@ import sqlite3
 
 
 app = Flask(__name__)
-#app.secret_key = 'buddies'
 UPLOAD_FOLDER = '../Backend/upload'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 
+@app.route('/',  methods=['POST', 'GET'])
 @app.route('/index',  methods=['POST', 'GET'])
 def home_page():
     if request.method == 'POST':
