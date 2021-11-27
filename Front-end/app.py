@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, flash
-#from backend_controller import run_script, is_running
 import os
 import subprocess
 import pandas as pd
